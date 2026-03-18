@@ -1,12 +1,3 @@
-console.log("JavaScript working!");
-
-const taskLayout = `
-<div class="task" style="display: flex">
-    <input type="checkbox" class="done">
-    <p></p>
-    <span class="delete">[Delete]</span>
-</div>
-`;
 const deleteText = "[Delete]"
 
 const pendingTaskDOM = document.getElementById("pending")
