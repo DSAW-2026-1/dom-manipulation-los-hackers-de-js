@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,23 @@
   </head>
   <body>
     <h1>Mi TODO list</h1>
+    <h2>Tasks</h2>
+    <section class="pending">
+      <div class="task" style="display: flex">
+        <input type="checkbox" class="done">
+        <p>This is a sample task</p>
+        <span class="delete">[Delete]</span>
+      </div>
+    </section>
+    <h2>Completed</h2>
+    <section class="completed">
+      <div class="task" style="display: flex">
+        <input type="checkbox" class="done" checked>
+        <p>This is a sample completed task</p>
+        <span class="delete">[Delete]</span>
+      </div>
+    </section>
+    <i class="fa-classic fa-light fa-square-check"></i>
     <script src="scripts/script.js"></script>
   </body>
 </html>
