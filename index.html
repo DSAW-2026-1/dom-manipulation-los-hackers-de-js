@@ -1,24 +1,24 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>My TODO list</title>
-  </head>
-  <body>
-    <h1>My TODO list</h1>
-    <h2>New task</h2>
-    <input id="createTaskText" type="text">
-    <span id="createTaskBtn">[Create]</span>
-    <h2>Tasks</h2>
-    <section id="pending">
-      
-    </section>
-    <h2>Completed</h2>
-    <section id="completed">
-      
-    </section>
-    <script src="scripts/script.js"></script>
-  </body>
-</html>
+<main class="todo-wrapper">
+  <section class="todo-container">
+    <h1>My TODO List</h1>
+
+    <div class="input-section">
+      <h2>New task</h2>
+      <div class="input-group">
+        <input id="createTaskText" type="text" placeholder="¿Qué hay que hacer?">
+        <span id="createTaskBtn">[Create]</span>
+      </div>
+    </div>
+
+    <div class="lists-wrapper">
+      <section id="pending" class="task-list">
+        <h2>Tasks</h2>
+        </section>
+
+      <section id="completed" class="task-list">
+        <h2>Completed</h2>
+        </section>
+    </div>
+  </section>
+</main>
