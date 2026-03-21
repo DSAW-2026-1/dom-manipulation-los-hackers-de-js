@@ -135,7 +135,6 @@ input[type="text"]:focus {
   text-shadow: 0 0 8px var(--gan-red);
 }
 
-
 .done:checked + p {
   text-decoration: line-through;
   opacity: 0.4;
