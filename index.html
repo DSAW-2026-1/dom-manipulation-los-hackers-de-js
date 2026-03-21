@@ -1,24 +1,36 @@
-<!doctype html>
-<main class="todo-wrapper">
-  <section class="todo-container">
-    <h1>My TODO List</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TODO List - GAN Style</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <main class="todo-wrapper">
+        <section class="todo-container">
+            <h1>My TODO List</h1>
 
-    <div class="input-section">
-      <h2>New task</h2>
-      <div class="input-group">
-        <input id="createTaskText" type="text" placeholder="¿Qué hay que hacer?">
-        <span id="createTaskBtn">[Create]</span>
-      </div>
-    </div>
+            <div class="input-section">
+                <h2>New task</h2>
+                <div class="input-group">
+                    <input id="createTaskText" type="text" placeholder="What needs to be done?">
+                    <span id="createTaskBtn">[Create]</span>
+                </div>
+            </div>
 
-    <div class="lists-wrapper">
-      <section id="pending" class="task-list">
-        <h2>Tasks</h2>
+            <div class="lists-wrapper">
+                <section id="pending" class="task-list">
+                    <h2>Tasks</h2>
+                </section>
+
+                <section id="completed" class="task-list">
+                    <h2>Completed</h2>
+                </section>
+            </div>
         </section>
+    </main>
 
-      <section id="completed" class="task-list">
-        <h2>Completed</h2>
-        </section>
-    </div>
-  </section>
-</main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
